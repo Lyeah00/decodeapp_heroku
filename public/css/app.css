@@ -72,6 +72,11 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+  h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+  body {font-family: "Open Sans"}
+  
+  body {font-family: "Raleway", Arial, sans-serif}
+  .w3-row img {margin-bottom: -8px}
 <<<<<<< HEAD
 }
 =======
