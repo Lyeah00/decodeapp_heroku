@@ -3,26 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="icon" type="image/png" href="img/decode.png">	
+	<link rel="icon" type="image/png" href="img/logo.jpg">	
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<title>decode</title>
+	<title>DASALLA</title>
 
-	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-	<link rel="stylesheet" href="css/materialize.css">
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" href="css/materialize.css"> -->
+	<link rel="stylesheet" href="css/css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<style>
+	body {font-family: "Raleway", Arial, sans-serif}
+	.w3-row img {margin-bottom: -8px}
+</style>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+	body {font-family: "Open Sans"}
+	</style>
 </head>
-<body >
+<body>
 
-	<div id="app"></div>	
+	<div id="app">
+		
+	</div>
 
 	<script src="js/jquery-3.1.1.js"></script>
-	<!-- <script src="js/bootstrap.js"></script> -->
-	<script src="js/materialize.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- <script src="js/materialize.js"></script> -->
 	<script src="js/app.js"></script>
 	<script>
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-    });
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+			$('.tooltipped').tooltip({delay: 50});
+		})
 	</script>
 </body>
 </html>

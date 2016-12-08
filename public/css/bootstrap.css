@@ -6150,6 +6150,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  color: white;
 }
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
